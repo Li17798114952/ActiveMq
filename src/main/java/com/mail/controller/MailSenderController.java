@@ -36,6 +36,10 @@ public class MailSenderController {
         String[] to = {mailTo};
         String subject = "普通邮件";
         String context = "你好，这是一封普通邮件";
+        /**
+         * 这是我的git第一次测试
+         */
+
         activeMQService.sendMQ(to, subject, context);
     }
 
